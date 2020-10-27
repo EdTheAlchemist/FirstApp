@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">"Ed's App"</string>
+    <string name="default_edit_text_en">Please enter name</string>
+    <string name="default_edit_text_tl">Please enter name</string>
+</resources>
