@@ -5,4 +5,8 @@
     <string name="add_button">Add</string>
     <string name="instructions_tv">Please enter your details:</string>
     <string name="output_tv">Output:</string>
+    <string name="random_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="youtube_channel_name">Super Bayani</string>
+    <string name="youtube_subscriber">187 subscribers</string>
+    <string name="youtube_url">https://www.youtube.com/channel/UCGn0ep0f0tjnegstKIlVgqg</string>
 </resources>
