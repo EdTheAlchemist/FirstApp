@@ -1,5 +1,8 @@
 <resources>
-    <string name="app_name">"Ed's App"</string>
-    <string name="default_edit_text_en">Please enter name</string>
-    <string name="default_edit_text_tl">Please enter name</string>
+    <string name="app_name">My First Application</string>
+    <string name="first_edit_text">Enter first name</string>
+    <string name="last_edit_text">Enter last name</string>
+    <string name="add_button">Add</string>
+    <string name="instructions_tv">Please enter your details:</string>
+    <string name="output_tv">Output:</string>
 </resources>

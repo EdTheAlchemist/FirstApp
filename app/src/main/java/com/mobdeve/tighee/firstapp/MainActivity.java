@@ -1,9 +1,11 @@
 package com.mobdeve.tighee.firstapp;
 
+import androidx.annotation.MainThread;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,8 +16,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Log.d(TAG, "onCreate: log found here");
-
-        Log.d(TAG, "onReturn: log found here");
+        Toast t = Toast.makeText(
+                getApplicationContext(),
+                "Hello world!",
+                Toast.LENGTH_LONG
+        );
+        t.show();
     }
 }
