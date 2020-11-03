@@ -25,10 +25,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Initialize our variables by finding the ID of each UI element
-        this.first_name_et = findViewById(R.id.firstname_etv);
-        this.last_name_et = findViewById(R.id.lastname_etv);
-        this.add_btn = findViewById(R.id.add_btn);
-        this.name_list_vll = findViewById(R.id.namelist_vll);
+        this.first_name_et = (EditText) findViewById(R.id.firstname_etv);
+        this.last_name_et = (EditText) findViewById(R.id.lastname_etv);
+        this.add_btn = (Button) findViewById(R.id.add_btn);
+        this.name_list_vll = (LinearLayout) findViewById(R.id.namelist_vll);
 
         /* Create an event listener (OnClick) that performs:
             (1) Create a new TextView (temp_tv) given the context of our current Activity
