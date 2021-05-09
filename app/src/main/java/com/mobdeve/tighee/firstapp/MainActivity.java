@@ -45,12 +45,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        /*Toast t = Toast.makeText(
+        Toast t = Toast.makeText(
                 getApplicationContext(),
                 R.string.random_text,
                 Toast.LENGTH_LONG
         );
-        t.show();*/
+        t.show();
     }
 }
 
